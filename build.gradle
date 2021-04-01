@@ -50,6 +50,13 @@ allprojects {
     }
 }
 
+// TODO this doesn't seem to be forcing explicit visibility modifiers
+// credit for the following to https://stackoverflow.com/a/64463361
+gradle.afterProject { project ->
+    if (project.name == "app") return
+    project.extensions.findByName("kotlin")?.explicitApi()
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

@@ -41,9 +41,10 @@ hilt {
 }
 
 dependencies {
-    // project files
+    // Project
     implementation project(":core")
-    implementation project(":holocanon-repository")
+    implementation project(":holocanon-localdata")
+    implementation project(":holocanon-remotedata")
 
     // Dependency Injection
     implementation "com.google.dagger:hilt-android:$hiltVersion"

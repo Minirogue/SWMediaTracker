@@ -1,3 +1,6 @@
 include ':core'
 include ':app'
 include ':usecase'
+include ':holocanon-repository'
+include ':holocanon-localdata'
+include ':holocanon-remotedata'

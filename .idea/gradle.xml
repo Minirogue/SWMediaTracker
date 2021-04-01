@@ -13,6 +13,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/holocanon-localdata" />
+            <option value="$PROJECT_DIR$/holocanon-remotedata" />
+            <option value="$PROJECT_DIR$/holocanon-repository" />
             <option value="$PROJECT_DIR$/usecase" />
           </set>
         </option>
